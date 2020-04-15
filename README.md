@@ -8,7 +8,7 @@ The game Gomoku created in Vue
 * Alternating turns
 * Pieces can't be moved or removed
 * Pieces are placed on empty intersections
-* The first player to form an unbroken chainf of five pieces horizontally, vertically or diagonally wins
+* The first player to form an unbroken chain of five pieces horizontally, vertically or diagonally wins
 
 # About the project
-This was an assignment in my "Online Multimedia"-Course at the Hagenberg Campus of the University of Applied Sciences Upper Austria.
+This was an assignment in my "Online Multimedia" course at the Hagenberg Campus of the University of Applied Sciences Upper Austria.
