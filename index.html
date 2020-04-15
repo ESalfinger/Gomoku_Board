@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MTD280</title>
+  <script src="lib/vue.min.js"></script>
+</head>
+
+<body>
+  <h1>MTD280 Example</h1>
+  <div id="app">
+    <canvas id="canvas" width="700" height="700" @click="clickHandler"></canvas>
+    <br>
+    <input type="radio" id="circles" name="stones" v-bind:value="false" v-model="images">
+    <label for="male">Circles</label><br>
+    <input type="radio" id="images" name="stones" v-bind:value="true" v-model="images">
+    <label for="female">Images</label><br>
+    <label for="dimension">Board dimension</label>
+    <input type="number" name="dimension" min="5" max="20" v-model.number="dimension">
+    <button type="button" name="restartButton" @click="restart">Restart</button>
+  </div>
+  <hr>
+  <p style="font-size:small">
+    MTD280 Online Multimedia (<a href="http://www.fh-ooe.at/mtd">MTD</a>)<br>
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
